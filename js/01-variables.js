@@ -29,3 +29,51 @@ console.log(numero1)
 console.log(numero2)
 
 document.writeln("<br> El resultado de la suma es: " + (numero1 + numero2));
+
+//Tipos de datos promitivos
+//string
+const nombreUsuario = "Ezequiel Pellegrini"
+const producto = "Celular"
+const tarea = `Realizar el tp 1`
+//number
+const edad = 30;
+const precio = 35.6;
+const negativo = -40.6;
+//booleanos
+
+const encendido = true
+const lavado = false 
+
+//null: es un valor vacio
+let vacio = null;
+//undefined
+let datoNuevo; 
+
+//Tipos de referenciales
+
+//objeto con notacion literal
+const funko = {
+    nombre: "Ironman",
+    precio: 30,
+    codigo: "SJ76B"
+}
+
+//arrays
+const productos = ["celular", "table", "noteebok"]
+
+
+
+console.log(nombreUsuario)
+console.log(producto)
+console.log(tarea)
+console.log(edad)
+console.log(precio)
+console.log(negativo)
+console.log(encendido)
+console.log(lavado)
+console.log(vacio)
+console.log(datoNuevo)
+console.log(funko)
+console.log(productos)
+
+
