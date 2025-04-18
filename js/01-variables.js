@@ -61,8 +61,6 @@ const funko = {
 //arrays
 const productos = ["celular", "table", "noteebok"]
 
-
-
 console.log(nombreUsuario)
 console.log(producto)
 console.log(tarea)
