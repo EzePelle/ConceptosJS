@@ -24,7 +24,7 @@ hacer - mientras se cumple la condicion logica
 do-while
 
 do{
-todas las lineas de codigo que quiero repetir
+      todas las lineas de codigo que quiero repetir
 agregar una linea que haga que la condicion logica se deje de cumplir
 }while(condicion logica) (siempre se repite por lo menos una vez)
 */
@@ -35,3 +35,17 @@ do{
     document.writeln(`<p>Linea número: ${línea}</p>`)
     línea++;
 }while(línea<=50)
+
+    /*
+    for
+    igual que un blucle while pero tenemos que saber cuantas veces se reinicia
+    for( let contador=0 ; condicion logica ; contador = contador+2 ){
+          todas las lineas de codigo que quiero repetir
+
+    }
+    */
+
+    //cuenta regresiva
+    for(let contador= 10; contador > 0; contador --){
+        document.writeln(`<p>Cuenta regresiva ${contador}</p>`)
+    }
