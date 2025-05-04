@@ -46,6 +46,6 @@ do{
     */
 
     //cuenta regresiva
-    for(let contador= 10; contador > 0; contador --){
+    for(let contador= 10; contador >= 0; contador--){
         document.writeln(`<p>Cuenta regresiva ${contador}</p>`)
     }
