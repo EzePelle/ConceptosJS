@@ -1,0 +1,42 @@
+[33mf425101[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpoo[m[33m)[m HEAD@{0}: reset: moving to HEAD~1
+[33me8a32f5[m HEAD@{1}: reset: moving to HEAD~2
+[33m6ddeba7[m HEAD@{2}: reset: moving to HEAD~3
+[33m30042ff[m[33m ([m[1;31morigin/poo[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{3}: checkout: moving from variables to poo
+[33md6d2a00[m[33m ([m[1;31morigin/variables[m[33m, [m[1;32mvariables[m[33m)[m HEAD@{4}: checkout: moving from poo to variables
+[33m30042ff[m[33m ([m[1;31morigin/poo[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{5}: checkout: moving from Main to poo
+[33m00f63f3[m[33m ([m[1;31morigin/Main[m[33m, [m[1;32mMain[m[33m)[m HEAD@{6}: checkout: moving from poo to Main
+[33m30042ff[m[33m ([m[1;31morigin/poo[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{7}: checkout: moving from dev to poo
+[33m447a4fb[m[33m ([m[1;32mdev[m[33m)[m HEAD@{8}: commit: agregamos un ejemplo de metodo con funcion tradicional al que accede a las propiedades internas dl objeto y otro con arrow function
+[33m5df5064[m[33m ([m[1;32mbucles[m[33m)[m HEAD@{9}: merge bucles: Fast-forward
+[33m30042ff[m[33m ([m[1;31morigin/poo[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{10}: checkout: moving from bucles to dev
+[33m5df5064[m[33m ([m[1;32mbucles[m[33m)[m HEAD@{11}: checkout: moving from poo to bucles
+[33m30042ff[m[33m ([m[1;31morigin/poo[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{12}: checkout: moving from dev to poo
+[33m30042ff[m[33m ([m[1;31morigin/poo[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{13}: checkout: moving from bucles to dev
+[33m5df5064[m[33m ([m[1;32mbucles[m[33m)[m HEAD@{14}: commit: agregamos funciones find y finindex
+[33m75a0f04[m HEAD@{15}: commit: corregimos el bucle.js
+[33m5d34b6c[m HEAD@{16}: commit: agregamos bucles a cajero
+[33m1f7d72c[m HEAD@{17}: commit: agregamos un ejemplo de bucle for
+[33me483a47[m HEAD@{18}: commit: Agregamos un ejemplo de bucle do-while
+[33me71ba4e[m HEAD@{19}: commit: agregamos un ejemplo de bucles
+[33m94dc92a[m[33m ([m[1;32mswitch[m[33m)[m HEAD@{20}: checkout: moving from switch to bucles
+[33m94dc92a[m[33m ([m[1;32mswitch[m[33m)[m HEAD@{21}: commit: agregamos un ejemplo de switch de un cajero automatico
+[33mfecc35d[m HEAD@{22}: commit: agregamos un ejemplo de estructura switch
+[33m30042ff[m[33m ([m[1;31morigin/poo[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{23}: checkout: moving from dev to switch
+[33m30042ff[m[33m ([m[1;31morigin/poo[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{24}: pull origin dev: Merge made by the 'ort' strategy.
+[33m5a3b075[m[33m ([m[1;32mcondicionales[m[33m)[m HEAD@{25}: merge condicionales: Fast-forward
+[33md6d2a00[m[33m ([m[1;31morigin/variables[m[33m, [m[1;32mvariables[m[33m)[m HEAD@{26}: checkout: moving from condicionales to dev
+[33m5a3b075[m[33m ([m[1;32mcondicionales[m[33m)[m HEAD@{27}: commit: agregamos un ejemplo de condicionales cuando vamos a votar
+[33md6d2a00[m[33m ([m[1;31morigin/variables[m[33m, [m[1;32mvariables[m[33m)[m HEAD@{28}: checkout: moving from dev to condicionales
+[33md6d2a00[m[33m ([m[1;31morigin/variables[m[33m, [m[1;32mvariables[m[33m)[m HEAD@{29}: merge variables: Fast-forward
+[33mf425101[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpoo[m[33m)[m HEAD@{30}: checkout: moving from variables to dev
+[33md6d2a00[m[33m ([m[1;31morigin/variables[m[33m, [m[1;32mvariables[m[33m)[m HEAD@{31}: checkout: moving from Main to variables
+[33m00f63f3[m[33m ([m[1;31morigin/Main[m[33m, [m[1;32mMain[m[33m)[m HEAD@{32}: commit: main
+[33md6d2a00[m[33m ([m[1;31morigin/variables[m[33m, [m[1;32mvariables[m[33m)[m HEAD@{33}: checkout: moving from variables to Main
+[33md6d2a00[m[33m ([m[1;31morigin/variables[m[33m, [m[1;32mvariables[m[33m)[m HEAD@{34}: commit: agregamos todos los tipos de datos
+[33m6ddeba7[m HEAD@{35}: checkout: moving from dev to variables
+[33mf425101[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpoo[m[33m)[m HEAD@{36}: checkout: moving from variables to dev
+[33m6ddeba7[m HEAD@{37}: commit: agregamos todos los tipos de datos
+[33m54c7d43[m HEAD@{38}: commit: Cambiamos las variables por constantes, ademas agregamos el uso de prom
+[33me8a32f5[m HEAD@{39}: commit: agregamos unas funciones
+[33mf425101[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpoo[m[33m)[m HEAD@{40}: checkout: moving from dev to variables
+[33mf425101[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpoo[m[33m)[m HEAD@{41}: commit (initial): agregamos la estructura
