@@ -42,6 +42,49 @@ class Persona {
   }
 }
 
+class Alumno extends Persona{
+  #curso
+  #legajo
+  #asistencia
+    constructor(nombre, apellido, dni, email, edad, legajo, curso){
+         super(nombre, apellido, dni, email, edad)
+         this.#curso = curso;
+         this.#legajo = legajo;
+         this.#asistencia = 0;
+    }
+    //get y set
+    get getCurso(){
+      return this.#curso
+    }
+
+    set setCurso(nuevoCurso){
+    //aquí agregar las validaciones que sean necesarias
+    if(nuevoCurso.length >0){
+      this.#curso = nuevoCurso
+    }
+}
+get getLegajo(){
+  return this.#legajo
+}
+
+set setLegajos(nuevoLegajo){
+   //aquí agregar las validaciones que sean necesarias
+   if(nuevoLegajo.length >0){
+    this.legajo = nuevoLegajo 
+   }
+}
+get getAsistencia(){
+  return this.#legajo
+}
+
+set setAsistencia(nuevaAsistencia){
+   //aquí agregar las validaciones que sean necesarias
+   if(nuevaAsistencia.length >0){
+    this.#asistencia = nuevaAsistencia
+   }
+}
+//metodos
+}
 //nombre objeto.propiedad
 //cuando utilizamos a la clase: CREAR UN OBJETO A INSTANCIAR
 
