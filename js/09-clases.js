@@ -84,6 +84,17 @@ set setAsistencia(nuevaAsistencia){
    }
 }
 //metodos
+//Ejemplo de poliformismo
+mostrarDatosAlumno(){
+    document.writeln(`<ol> 
+        <li>DNI: ${this.dni}</li>
+        <li>Email: ${this.getEmail}</li>
+        <li>Edad: ${this.edad}</li>
+        <li>Asistencia: ${this.getAsistencia}</li>
+        <li>Curso: ${this.getCurso}</li>
+        </ol>`);
+}
+
 }
 //nombre objeto.propiedad
 //cuando utilizamos a la clase: CREAR UN OBJETO A INSTANCIAR
@@ -114,3 +125,9 @@ Camila.edad = 25;
 
 Camila.setEmail = "camila1234@hotmail.com";
 Camila.mostrarDatos();
+
+const Estefi = new Alumno('Estefania','Pellegrini', '42864361', 'estefy@hotmail.com', 27, 1000, 'FullStack')
+ 
+console.log(Estefi)
+Estefi.mostrarDatos()
+Estefi.mostrarDatosAlumno()
